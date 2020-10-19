@@ -1,4 +1,4 @@
-from social_network_app import app
+from beagle_social_network import app
 
 if __name__ == '__main__':
     app.run()
