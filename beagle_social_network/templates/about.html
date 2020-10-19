@@ -1,6 +1,18 @@
 {% extends "layout.html" %}
 {% block conteudo %}
+
+<img src="{{url_for('static', filename='img/beagle.jpg')}}"
+    class="img-fluid" alt="Responsive image">
+
 <div class="jumbotron">
-	<h1>About Page</h1>
+	<h1>Equipe</h1>
+    <ul>
+        <li>Estudante 1</li>
+        <li>Estudante 2</li>
+        <li>Estudante 3</li>
+        <li>Estudante 4</li>
+        <li>Estudante 5</li>
+    </ul>
 </div>
+
 {% endblock %}
